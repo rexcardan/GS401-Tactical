@@ -1,9 +1,10 @@
-﻿<Application x:Class="ContourCheckerWPF.App"
+﻿<Application x:Class="ContourChecker.UI.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ContourCheckerWPF"
+             xmlns:local="clr-namespace:ContourChecker.UI"
+             xmlns:conv="clr-namespace:ContourChecker.UI.Helpers.Converters"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <conv:ResultIconConverter x:Key="ResultIconConverter"/>
     </Application.Resources>
 </Application>
