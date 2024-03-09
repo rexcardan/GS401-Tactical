@@ -4,10 +4,21 @@
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net472</TargetFramework>
 		<LangVersion>Latest</LangVersion>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommandLineParser" Version="2.9.1" />
+	  <PackageReference Include="NLog" Version="4.7.15" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="VMS.TPS.Common.Model.API">
+	    <HintPath>..\..\..\..\..\Program Files (x86)\Varian\RTM\16.1\esapi\API\VMS.TPS.Common.Model.API.dll</HintPath>
+	  </Reference>
+	  <Reference Include="VMS.TPS.Common.Model.Types">
+	    <HintPath>..\..\..\..\..\Program Files (x86)\Varian\RTM\16.1\esapi\API\VMS.TPS.Common.Model.Types.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 </Project>
