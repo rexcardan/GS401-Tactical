@@ -7,6 +7,9 @@ namespace ContourChecker
     {
         static void Main(string[] args)
         {
+            //For testing purposes
+            args = new string[] { "-p", "Prostate003", "-s", "2.25.137385552897349939998230737929399514051" };
+
             Parser.Default.ParseArguments<EsapiState>(args)
             .WithParsed(state =>
             {
