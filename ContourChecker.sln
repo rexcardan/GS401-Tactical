@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Launcher.cs = Launcher.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContourCheckerWPF", "ContourCheckerWPF\ContourCheckerWPF.csproj", "{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker.UI", "ContourCheckerWPF\ContourChecker.UI.csproj", "{56319D0C-640D-4439-8061-E00F964DF81E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,14 +38,14 @@ Global
 		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Release|Any CPU.Build.0 = Release|x64
 		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Release|x64.ActiveCfg = Release|x64
 		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Release|x64.Build.0 = Release|x64
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Debug|x64.Build.0 = Debug|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Release|x64.ActiveCfg = Release|Any CPU
-		{4A0D227A-6763-4AA3-B17A-9D7ADBAD5A7E}.Release|x64.Build.0 = Release|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Debug|x64.Build.0 = Debug|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Release|x64.ActiveCfg = Release|Any CPU
+		{56319D0C-640D-4439-8061-E00F964DF81E}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
