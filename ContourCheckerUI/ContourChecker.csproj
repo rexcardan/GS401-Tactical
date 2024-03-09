@@ -13,10 +13,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\Users\rcardan\source\repos\ContourChecker\ContourChecker.API\ContourChecker.API.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Reference Include="VMS.TPS.Common.Model.API">
 	    <HintPath>C:\Program Files (x86)\Varian\RTM\16.1\esapi\API\VMS.TPS.Common.Model.API.dll</HintPath>
 	  </Reference>

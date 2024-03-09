@@ -10,7 +10,8 @@ namespace ContourChecker.API.Helpers
     {
         public static bool IsStructureIdValid(string structureId)
         {
-            throw new NotImplementedException();
+            var result = ESAPIX.Constraints.TG263.IsCompliant(structureId, "Control", 0).GetAwaiter().GetResult();
+            return result.nameCompliant;
         }
     }
 }

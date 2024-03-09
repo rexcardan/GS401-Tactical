@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker", "ContourCheckerUI\ContourChecker.csproj", "{6DF23BC5-CE46-483A-8012-F82BC6A14C09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker.API", "..\..\Users\rcardan\source\repos\ContourChecker\ContourChecker.API\ContourChecker.API.csproj", "{593BA496-050E-40A1-8036-05EFB002A993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker.API", "ContourChecker.API\ContourChecker.API.csproj", "{17684ED3-A129-48B5-9046-0173CCEC4DFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Debug|x64.Build.0 = Debug|x64
 		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Release|x64.ActiveCfg = Release|x64
 		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Release|x64.Build.0 = Release|x64
-		{593BA496-050E-40A1-8036-05EFB002A993}.Debug|x64.ActiveCfg = Debug|x64
-		{593BA496-050E-40A1-8036-05EFB002A993}.Debug|x64.Build.0 = Debug|x64
-		{593BA496-050E-40A1-8036-05EFB002A993}.Release|x64.ActiveCfg = Release|x64
-		{593BA496-050E-40A1-8036-05EFB002A993}.Release|x64.Build.0 = Release|x64
+		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Debug|x64.ActiveCfg = Debug|x64
+		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Debug|x64.Build.0 = Debug|x64
+		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Release|x64.ActiveCfg = Release|x64
+		{17684ED3-A129-48B5-9046-0173CCEC4DFF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
