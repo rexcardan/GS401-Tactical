@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContourChecker", "ContourChecker.csproj", "{3718A9CB-D20C-426F-B506-C039562567AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker", "ContourCheckerUI\ContourChecker.csproj", "{6DF23BC5-CE46-483A-8012-F82BC6A14C09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContourChecker.API", "..\..\Users\rcardan\source\repos\ContourChecker\ContourChecker.API\ContourChecker.API.csproj", "{593BA496-050E-40A1-8036-05EFB002A993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Debug|x64.ActiveCfg = Debug|x64
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Debug|x64.Build.0 = Debug|x64
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Release|x64.ActiveCfg = Release|Any CPU
-		{3718A9CB-D20C-426F-B506-C039562567AB}.Release|x64.Build.0 = Release|Any CPU
+		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Debug|x64.ActiveCfg = Debug|x64
+		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Debug|x64.Build.0 = Debug|x64
+		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Release|x64.ActiveCfg = Release|x64
+		{6DF23BC5-CE46-483A-8012-F82BC6A14C09}.Release|x64.Build.0 = Release|x64
+		{593BA496-050E-40A1-8036-05EFB002A993}.Debug|x64.ActiveCfg = Debug|x64
+		{593BA496-050E-40A1-8036-05EFB002A993}.Debug|x64.Build.0 = Debug|x64
+		{593BA496-050E-40A1-8036-05EFB002A993}.Release|x64.ActiveCfg = Release|x64
+		{593BA496-050E-40A1-8036-05EFB002A993}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {02D81C5C-5D95-4F7C-9525-072924FCC3B0}
+		SolutionGuid = {1E21617E-947A-4707-BE48-75B50327C00A}
 	EndGlobalSection
 EndGlobal
